@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="rus">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Заявка на обучение A&E</title>
+	<link rel="stylesheet" type="text/css" href="../style/style-form.css">
+</head>
+
+<body>
+	<div class="all-wrapper">
+		<div class="all-content">
+			<div class="up">
+				<header>
+					<div class="container-flex-header">
+						<div class="top-logo">
+							<a href="https://www.aeroflot.ru/ru-ru"><img src="../icons/logo.png" alt="" id="top-logo"></a>
+						</div>
+						<div class="top-logo-label">
+							<label for="top-logo" id="top-label">A&E</label>
+						</div>
+						<div class="top-site-name">
+							<h1 id="top-h1">AVIATION & ENGLISH</h1>
+						</div>
+					</div>
+				</header>
+			
+				<nav>
+					<div class="top-nav-bar">
+						<ul class="top-menu">
+							<li><a href="../index.html">ГЛАВНАЯ</a></li>
+							<li class="active">ЗАЯВКА НА ОБУЧЕНИЕ</a></li>
+							<li><a href="#">КОНТАКТЫ</a></li>
+							<li><a href="#">О НАС</a></li>
+						</ul>
+					</div>
+				</nav>
+			</div>
+		
+			<div class="container-flex-main">
+			
+				<aside>
+					<nav>
+						<div class="aside-nav-bar">
+							<h2>ВИДЫ ПРОГРАММ</h2>
+							<ul class="aside-menu">
+								<li><a href="#">AVIATION ENGLISH</a></li>
+								<li><a href="#">TECHNICAL ENGLISH</a></li>
+								<li><a href="#">GENERAL ENGLISH</a></li>
+							</ul>
+						</div>
+					</nav>
+				</aside>
+			
+			
+				<div class="modal-form">
+					<form>
+						<h2>ЗАПОЛНИТЕ АНКЕТУ</h2>
+						<div class="text-field">
+							<label class="text-field-label" for="first_name">Имя:</label>
+							<input class="text-field-input" type="text" name="first_name" id="first_name"
+								placeholder="Введите имя" required>
+						</div>
+						<div class="text-field">
+							<label class="text-field-label" for="phone">Телефон:</label>
+							<input class="text-field-input" type="tel" name="phone" id="phone" placeholder="Введите ваш номер"
+								required>
+						</div>
+						<div class="text-field">
+							<label class="text-field-label" for="email">Email:</label>
+							<input class="text-field-input" type="email" name="email" id="email"
+								placeholder="Введите ваш адрес электронной почты" required>
+						</div>
+						<div class="text-field">
+							<label class="text-field-label" for="age">Возраст:</label>
+							<input class="text-field-input" type="number" name="age" id="age" placeholder="Введите ваш возраст">
+						</div>
+						<div class="date-field">
+							<label class="date-field-label" for="date">Желаемая дата начала обучения:</label>
+							<input class="date-field-input" type="date" name="date" id="date" value="2024-01-01">
+						</div>
+						<div class="select-field">
+							<label class="select-field-label" for="level">Уровень знаний:</label>
+							<select name="level" id="level">
+								<option>Beginner</option>
+								<option>Elementary</option>
+								<option>Pre-Intermediate</option>
+								<option>Intermediate</option>
+								<option>Upper Intermediate</option>
+								<option>Advanced</option>
+								<option>III по шкале ICAO</option>
+								<option>IV по шкале ICAO</option>
+								<option>V по шкале ICAO</option>
+								<option>Нет уровня</option>
+							</select>
+						</div>
+						<div class="checkbox-field">
+							<label class="checkbox-field-label" for="language">Желаете изучать:</label>
+							<input class="checkbox-input" type="checkbox" name="general_english" value="GE">Общий английский<br>
+							<input class="checkbox-input" type="checkbox" name="aviation_english" value="AE">Авиационный
+							английский<br>
+							<input class="checkbox-input" type="checkbox" name="technical_english" value="TE">Технический
+							английский<br>
+						</div>
+						<textarea name="comment" cols="60" rows="3" placeholder="Напишите ваши вопросы и пожелания"></textarea>
+						<label>
+							<input type="checkbox" name="privacy_policy" required>Я даю согласие на <a href="https://www.youtube.com/">обработку персональных данных</a>
+						</label>
+						<button id="button-form">Отправить</button>
+					</form>
+				</div>
+			</div>
+		</div>
+
+		<div class="all-footer">
+			<footer>
+				<div class="down">
+					<div id="footer-wrapper-first-column">
+						<a href="https://www.aeroflot.ru/ru-ru"><img src="../icons/logo.png" alt="" id="top-logo"></a>
+						<p>Copyright &copy; 2023 - 2024 <a href="#">RKRost</a></p>
+					</div>
+					<div id="footer-wrapper-second-column">
+						<h3>КАРТА САЙТА</h3>
+						<div id="fm">
+							<div class="fmp">
+								<a href="../index.html">Главная</a>
+								<a href="#">О нас</a>
+								<a href="#">Контакты</a>
+							</div>
+							<div class="fmp">
+								<a href="../pages/AE.html">Aviation english</a>
+								<a href="../pages/TE.html">Technical english</a>
+								<a href="../pages/GE.html">General english</a>
+							</div>
+						</div>
+					</div>
+					<div id="footer-wrapper-third-column">
+						<h3>СОЦИАЛЬНЫЕ СЕТИ</h3>
+						<div class="container">
+							<div>
+								<a href="http://twitter.com/" class="social-icon twitter"></a>
+								<a href="http://facebook.com/" class="social-icon facebook"></a>
+								<a href="http://plus.google.com/" class="social-icon google-plus"></a>
+							</div>
+							<div>
+								<a href="http://vimeo.com/" class="social-icon-small vimeo"></a>
+								<a href="http://youtube.com/" class="social-icon-small youtube"></a>
+								<a href="http://flickr.com/" class="social-icon-small flickr"></a>
+								<a href="http://instagram.com/" class="social-icon-small instagram"></a>
+								<a href="#" class="social-icon-small rss"></a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</footer>
+		</div>
+	</div>
+</body>
+
+</html>

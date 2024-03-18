@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="rus">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Aviation and English</title>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+	<link rel="stylesheet" href="style/style-index.css">
+</head>
+
+<body>
+	<div class="all-wrapper">
+		<div class="all-content">
+			<div class="up">
+				<header>
+					<div class="container-flex-header">
+						<div class="top-logo">
+							<a href="https://www.aeroflot.ru/ru-ru"><img src="icons/logo.png" alt="" id="top-logo"></a>
+						</div>
+						<div class="top-logo-label">
+							<label for="top-logo" id="top-label">A&E</label>
+						</div>
+						<div class="top-site-name">
+							<h1 id="top-h1">AVIATION & ENGLISH</h1>
+						</div>
+					</div>
+				</header>
+
+				<nav>
+					<div class="top-nav-bar">
+						<ul class="top-menu">
+							<li class="active">ГЛАВНАЯ</li>
+							<li><a href="pages/form.html">ЗАЯВКА НА ОБУЧЕНИЕ</a></li>
+							<li><a href="#">КОНТАКТЫ</a></li>
+							<li><a href="#">О НАС</a></li>
+						</ul>
+					</div>
+				</nav>
+			</div>
+
+			<section>
+				<div class="slider-js">
+					<div class="swiper">
+						<div class="swiper-wrapper">
+							<div class="swiper-slide d-flex-center green big-text">
+								<a href="pages/AE.html" class="green">
+									<p class="kind">AVIATION ENGLISH</p><img src="images/AE.png" height="250px" alt="" class="frame">
+									<p class="slog">сдай на уровень ICAO</p>
+								</a>
+							</div>
+							<div class="swiper-slide d-flex-center green big-text">
+								<a href="pages/TE.html" class="green">
+									<p class="kind">TECHNICAL ENGLISH</p><img src="images/TE.png" height="250px" alt="" class="frame">
+									<p class="slog">читай техническую документацию</p>
+								</a>
+							</div>
+							<div class="swiper-slide d-flex-center green big-text">
+								<a href="pages/GE.html" class="green">
+									<p class="kind">GENERAL ENGLISH</p><img src="images/GE.png" height="250px" alt="" class="frame">
+									<p class="slog">изучай общий английский</p>
+								</a>
+							</div>
+						</div>
+						<div class="swiper-pagination"></div>
+						<div class="swiper-button-prev"></div>
+						<div class="swiper-button-next"></div>
+					</div>
+				</div>
+			</section>
+		</div>
+
+		<div class="all-footer">
+			<footer>
+				<div class="down">
+					<div id="footer-wrapper-first-column">
+						<a href="https://www.aeroflot.ru/ru-ru"><img src="icons/logo.png" alt="" id="top-logo"></a>
+						<p>Copyright &copy; 2023 - 2024 <a href="#">RKRost</a></p>
+					</div>
+					<div id="footer-wrapper-second-column">
+						<h3>КАРТА САЙТА</h3>
+						<div id="fm">
+							<div class="fmp">
+								<a href="#">Главная</a>
+								<a href="#">О нас</a>
+								<a href="#">Контакты</a>
+							</div>
+							<div class="fmp">
+								<a href="pages/AE.html">Aviation english</a>
+								<a href="pages/TE.html">Technical english</a>
+								<a href="pages/GE.html">General english</a>
+							</div>
+						</div>
+					</div>
+					<div id="footer-wrapper-third-column">
+						<h3>СОЦИАЛЬНЫЕ СЕТИ</h3>
+						<div class="container">
+							<div>
+								<a href="http://twitter.com/" class="social-icon twitter"></a>
+								<a href="http://facebook.com/" class="social-icon facebook"></a>
+								<a href="http://plus.google.com/" class="social-icon google-plus"></a>
+							</div>
+							<div>
+								<a href="http://vimeo.com/" class="social-icon-small vimeo"></a>
+								<a href="http://youtube.com/" class="social-icon-small youtube"></a>
+								<a href="http://flickr.com/" class="social-icon-small flickr"></a>
+								<a href="http://instagram.com/" class="social-icon-small instagram"></a>
+								<a href="#" class="social-icon-small rss"></a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</footer>
+		</div>
+	</div>
+
+	<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+	<script>
+		const swiper = new Swiper('.swiper', {
+			direction: 'horizontal',
+			loop: true,
+
+			pagination: {
+				el: '.swiper-pagination',
+			},
+
+			navigation: {
+				nextEl: '.swiper-button-next',
+				prevEl: '.swiper-button-prev',
+			},
+		});
+	</script>
+</body>
+
+</html>
